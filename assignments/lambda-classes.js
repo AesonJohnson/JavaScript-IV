@@ -65,6 +65,39 @@ const fred = new Instructor({
     favLanguage: 'JavaScript',
     specialty: 'Front-end',
     catchPhrase: `Don't forget the homies`
-  });
+});
 
-  
+const janna = new Instructor({
+    name: 'Janna',
+    location: 'New York City',
+    age: 32,
+    favLanguage: 'CSS',
+    specialty: 'Back-end',
+    catchPhrase: `What does the clown cowboy say? Yeehonk`
+});
+
+const nico = new ProjectManager({
+    name: 'Nico',
+    age: '40',
+    location: 'Philadelphia',
+    favLanguage: 'Python',
+    specialty: 'Redux',
+    catchphrase: `Give me your dungarees`,
+    gradClassName: 'CS25',
+    favInstructor: 'Literally anyone but Fred'
+})
+
+const felicity = new ProjectManager({
+    name: 'Felicity',
+    age: '25',
+    location: 'Philadelphia',
+    favLanguage: 'HTML',
+    specialty: 'Front-end',
+    catchphrase: `:3c`,
+    gradClassName: 'WEB01',
+    favInstructor: 'Janna'
+})
+
+console.log(fred.speak());
+console.log(janna.location);
+console.log(nico.favInstructor);
