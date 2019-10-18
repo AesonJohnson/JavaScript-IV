@@ -90,13 +90,37 @@ const nico = new ProjectManager({
 const felicity = new ProjectManager({
     name: 'Felicity',
     age: '25',
-    location: 'Philadelphia',
+    location: 'Las Vegas',
     favLanguage: 'HTML',
     specialty: 'Front-end',
     catchphrase: `:3c`,
     gradClassName: 'WEB01',
     favInstructor: 'Janna'
 })
+
+const margaret = new Student({
+    name: 'Margaret',
+    age: '29',
+    location: 'Seattle',
+    previousBackground: 'Barista',
+    className: 'WEB02'
+    favSubjects: 'Javascript'
+
+})
+
+const briant = new Student({
+    name: 'Brian',
+    age: '19',
+    location: 'Walla Walla',
+    previousBackground: 'High school student',
+    className: 'WEB03'
+    favSubjects: 'CSS'
+
+})
+
+this.previousBackground = attributes.previousBackground,
+this.className = attributes.className,
+this.favSubjects = attributes.favSubjects
 
 console.log(fred.speak());
 console.log(janna.location);
